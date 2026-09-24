@@ -1,0 +1,117 @@
+DOCUMENT ID: DOC-2026-0001
+TITLE: Lorem Ipsum Platform Modernization — Project Brief
+PREPARED BY: Example Organization, Strategy Office
+CATEGORY: Digital Services
+RESPONSE DUE DATE: Placeholder Date, 5:00 PM
+
+================================================================================
+SECTION S — SCOPE OF WORK
+================================================================================
+
+S.1  BACKGROUND
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. The Example Organization
+seeks a delivery partner to support a portfolio of internal platforms. Sed do
+eiusmod tempor incididunt ut labore et dolore magna aliqua. The provider shall
+support project management, systems integration, and ongoing quality reporting
+across all in-scope platforms.
+
+S.2  SCOPE
+
+S.2.1  The provider shall deliver Project Management Support including status
+reporting, schedule maintenance, risk register management, and milestone reviews.
+
+S.2.2  The provider shall deliver Platform Support including monitoring, periodic
+health checks, quality reporting, and remediation planning.
+
+S.2.3  The provider shall deliver a Project Plan within 30 calendar days of kickoff.
+
+S.2.4  The provider shall assign a core team meeting the qualifications described
+in the attached role profiles. All core staff must hold a relevant professional
+certification.
+
+S.3  TIMELINE
+
+Phase 1: 12 months from kickoff.
+Optional Phase 2: 12 months.
+Optional Phase 3: 12 months.
+
+================================================================================
+SECTION I — INSTRUCTIONS FOR RESPONDENTS
+================================================================================
+
+I.1  RESPONSE ORGANIZATION
+
+Respondents shall organize responses into three parts:
+  Part I   — Approach (50 pages maximum)
+  Part II  — Case Studies (3 references maximum, 2 pages each)
+  Part III — Cost (no page limit)
+
+I.2  FORMAT REQUIREMENTS
+
+I.2.1  Responses shall be submitted in PDF format.
+I.2.2  Font shall be Arial, 12-point minimum. Tables may use 10-point minimum.
+I.2.3  Margins shall be no less than 1 inch on all sides.
+I.2.4  Headers and footers do not count against the page limit.
+I.2.5  Pages exceeding stated limits will not be reviewed.
+
+I.3  PART I — APPROACH
+
+I.3.1  Respondents shall describe their understanding of the objectives and their
+proposed approach for meeting them.
+
+I.3.2  Respondents shall provide a Management plan including team structure,
+role qualifications, and any partner arrangements.
+
+I.3.3  Respondents shall describe their Quality Assurance approach and metrics.
+
+I.3.4  Respondents shall identify and mitigate at least three project risks.
+
+I.4  PART II — CASE STUDIES
+
+I.4.1  Respondents shall provide exactly 3 case study references. References must
+describe work completed or ongoing within the last five (5) years.
+
+I.4.2  References must demonstrate direct relevance to the scope in Section S,
+based on similarity of scope, complexity, and scale.
+
+I.4.3  For each reference, respondents shall provide: project name, category,
+timeline, scale, scope description, and a point of contact.
+
+I.5  PART III — COST
+
+I.5.1  Respondents shall provide a cost breakdown for all proposed roles,
+including Phase 1 and all optional phases.
+
+I.5.2  Respondents shall confirm that proposed rates are consistent with their
+standard pricing practices.
+
+================================================================================
+SECTION E — EVALUATION CRITERIA
+================================================================================
+
+E.1  BASIS FOR SELECTION
+
+Selection will be based on overall value considering all criteria listed below.
+Approach criteria are more important than cost.
+
+E.2  CRITERIA (in descending order of importance)
+
+E.2.1  APPROACH (Most Important)
+  — Reviewed for: soundness, feasibility, innovation, risk mitigation
+  — Ratings: Excellent / Good / Acceptable / Marginal / Unacceptable
+
+E.2.2  CASE STUDIES
+  — Reviewed for: relevance and recency of references; quality of outcomes
+  — Confidence: High / Moderate / Low
+
+E.2.3  TEAM
+  — Reviewed for: qualifications, certifications, relevant experience
+
+E.2.4  COST (Least Important)
+  — Reviewed for: reasonableness, completeness, realism
+
+E.3  TRADEOFF
+
+The Example Organization may select a higher-rated response with a higher cost
+if the difference in quality justifies the premium.

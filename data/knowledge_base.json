@@ -1,0 +1,112 @@
+[
+  {
+    "id": "cs-001",
+    "source_type": "case_study",
+    "title": "Case Study — Lorem Platform Migration",
+    "category": "Example Client A",
+    "value": "Large",
+    "status": "completed",
+    "tags": ["platform migration", "cloud", "infrastructure", "modernization", "project management"],
+    "snippet": "The team completed a full platform migration for Example Client A under budget and two weeks ahead of schedule. Stakeholders rated the engagement Excellent for communication and quality.",
+    "full_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Over a 24-month engagement the team migrated three legacy platforms to a modern cloud environment. All 18 deliverables received first-time acceptance. No scope changes were requested. Stakeholder ratings: Quality — Excellent; Schedule — Excellent; Management — Very Good; Cost Control — Excellent."
+  },
+  {
+    "id": "cs-002",
+    "source_type": "case_study",
+    "title": "Case Study — Ipsum Monitoring & Quality Reporting",
+    "category": "Example Client B",
+    "value": "Large",
+    "status": "completed",
+    "tags": ["monitoring", "quality reporting", "platform support", "health checks", "remediation"],
+    "snippet": "The team provided continuous monitoring and quality reporting for Example Client B, maintaining 99.9% availability across a 36-month engagement with zero critical incidents.",
+    "full_text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem. The team delivered around-the-clock platform monitoring, periodic health checks, and monthly quality reports across roughly 8,000 managed assets. Remediation plans were tracked to closure. Overall stakeholder rating: Very Good. The engagement was extended for two optional phases based on performance."
+  },
+  {
+    "id": "cs-003",
+    "source_type": "case_study",
+    "title": "Case Study — Dolor Project Management Office",
+    "category": "Example Client C",
+    "value": "Medium",
+    "status": "ongoing",
+    "tags": ["project management", "status reporting", "schedule", "risk register", "milestone reviews"],
+    "snippet": "The team provided embedded project management support to Example Client C, owning status reporting, schedule maintenance, and the risk register for a multi-year portfolio.",
+    "full_text": "Ut enim ad minima veniam, quis nostrum exercitationem. Three embedded team members supported portfolio oversight with monthly status reports, schedule updates, risk register maintenance, and milestone reviews. The client recognized the team for identifying a schedule risk 60 days before it affected the critical path. Stakeholder rating: Very Good."
+  },
+  {
+    "id": "cs-004",
+    "source_type": "case_study",
+    "title": "Case Study — Sit Amet Data Integration",
+    "category": "Example Client D",
+    "value": "Large",
+    "status": "completed",
+    "tags": ["systems integration", "data migration", "ERP", "data quality", "testing"],
+    "snippet": "The team integrated legacy records into a modern ERP platform, processing 2.3M records with 99.8% accuracy. The system went live on time with no high-severity defects.",
+    "full_text": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur. The project consolidated data from four legacy systems into a single ERP platform across six migration waves. User acceptance testing passed on the first attempt and all deliverables were accepted without modification. Stakeholder rating: Excellent across all criteria."
+  },
+  {
+    "id": "ref-001",
+    "source_type": "reference",
+    "title": "Reference Sheet — Cloud & Platform Practice",
+    "category": null,
+    "value": null,
+    "status": null,
+    "tags": ["reference", "cloud", "platform", "monitoring", "DevOps", "certified"],
+    "snippet": "The cloud and platform practice includes 12 certified cloud architects and a managed service offering audited annually against industry security standards.",
+    "full_text": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse. The practice maintains multi-cloud partnerships, a certified architecture team, and an annually audited managed service platform. Specializations include platform modernization, continuous delivery pipelines, observability, and automated remediation."
+  },
+  {
+    "id": "ref-002",
+    "source_type": "reference",
+    "title": "Reference Sheet — Project Management Practice",
+    "category": null,
+    "value": null,
+    "status": null,
+    "tags": ["reference", "project management", "delivery", "agile", "certified", "quality assurance"],
+    "snippet": "Project leads average 14 years of delivery experience. All project leads are professionally certified. On-time delivery rate: 96% across 38 completed engagements.",
+    "full_text": "At vero eos et accusamus et iusto odio dignissimos ducimus. The practice combines structured delivery governance with agile methods. Staff certifications include project management and agile practitioner credentials. Tools: scheduling software, issue trackers, and shared documentation wikis. Track record: zero escalations across a 12-year history."
+  },
+  {
+    "id": "ref-003",
+    "source_type": "reference",
+    "title": "Reference Sheet — AI & Data Practice",
+    "category": null,
+    "value": null,
+    "status": null,
+    "tags": ["reference", "AI", "machine learning", "data science", "NLP", "RAG", "LLM"],
+    "snippet": "The AI practice delivers production ML systems, including NLP, predictive analytics, and Retrieval-Augmented Generation (RAG) grounded in an organization's own data.",
+    "full_text": "Temporibus autem quibusdam et aut officiis debitis. The practice is staffed by data scientists and ML engineers. Capabilities include LLM integration, RAG pipelines with FAISS, NLP with open-source libraries, predictive analytics, and responsible-AI governance. All systems include human-in-the-loop controls for high-stakes decisions."
+  },
+  {
+    "id": "pro-001",
+    "source_type": "profile",
+    "title": "Team Profile — Senior Project Lead",
+    "category": null,
+    "value": null,
+    "status": null,
+    "tags": ["project lead", "certified", "delivery", "stakeholder management", "core team"],
+    "snippet": "14 years of project delivery experience. Professionally certified. Led engagements ranging from small pilots to multi-year programs with zero budget overruns across 8 completed projects.",
+    "full_text": "Itaque earum rerum hic tenetur a sapiente delectus. Experienced lead for multi-team engagements, partner oversight, and executive stakeholder communication, managing distributed teams of up to 22 people. Education: MS, Project Management. Certifications: project management professional and scaled agile credentials."
+  },
+  {
+    "id": "pro-002",
+    "source_type": "profile",
+    "title": "Team Profile — Lead Systems Engineer",
+    "category": null,
+    "value": null,
+    "status": null,
+    "tags": ["systems engineer", "architecture", "certified", "DevOps", "integration"],
+    "snippet": "18 years of systems engineering experience. Certified systems engineering professional. Expert in model-based design, requirements management, and continuous delivery.",
+    "full_text": "Nam libero tempore, cum soluta nobis est eligendi optio. Lead engineer for large-scale platform programs with expertise in model-based systems engineering, requirements traceability, CI/CD pipeline architecture, and digital engineering transformation. Education: MS, Systems Engineering."
+  },
+  {
+    "id": "tpl-001",
+    "source_type": "template",
+    "title": "Template — Response Formatting Guidelines",
+    "category": null,
+    "value": null,
+    "status": null,
+    "tags": ["template", "instructions", "page limit", "format", "font", "part"],
+    "snippet": "Part I (Approach) shall not exceed 50 pages. Font: Arial 12pt minimum. Margins: 1 inch on all sides. Headers and footers do not count against the page limit. Part II is limited to 3 case study references.",
+    "full_text": "I.1 General instructions. I.2 Part structure. I.3 Page limits: Part I (Approach) — 50 pages maximum; Part II (Case Studies) — 3 references, 2 pages each; Part III (Cost) — no page limit. I.4 Format: Arial 12pt, 1-inch margins, standard header with document ID. I.5 Delivery: one PDF per part."
+  }
+]

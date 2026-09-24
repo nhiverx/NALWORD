@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HITL Document Pipeline</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+
+<header class="app-header">
+  <div class="brand">
+    <span class="brand-mark" aria-hidden="true">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5">
+        <rect x="1.75" y="1.75" width="12.5" height="12.5" rx="1.5" />
+        <path d="M5 5.5h6M5 8h6M5 10.5h3.5" />
+      </svg>
+    </span>
+    <span class="brand-name">HITL Document Pipeline</span>
+    <span class="brand-tag">Prototype</span>
+  </div>
+  <div class="header-meta">
+    <span class="session-chip hidden" id="session-chip">
+      <span class="session-chip-label">Session</span>
+      <span class="mono" id="session-id-display"></span>
+    </span>
+    <button class="btn btn-secondary btn-sm" id="btn-new-session" type="button">New session</button>
+  </div>
+</header>
+
+<div class="app-shell">
+
+  <!-- LEFT: workflow navigation -->
+  <nav class="stepper-panel" aria-label="Workflow progress">
+    <div class="panel-eyebrow">Input</div>
+    <div class="intake-status" id="intake-status"></div>
+
+    <div class="panel-eyebrow">Sequential workflow</div>
+    <ol class="stepper" id="stepper"></ol>
+
+    <div class="stepper-footnote">
+      <div class="footnote-title">Sequential gating</div>
+      <p>Later generation steps remain unavailable until the preceding step is approved.</p>
+    </div>
+  </nav>
+
+  <!-- CENTER: active workspace -->
+  <main class="workspace" id="workspace" aria-live="polite"></main>
+
+  <!-- RIGHT: governance / audit -->
+  <aside class="governance-panel" aria-label="HITL Governance Layer">
+    <div class="gov-header">
+      <div class="gov-title">HITL Governance Layer</div>
+      <p class="gov-text">Each workflow stage requires human approval before the next stage can proceed.</p>
+    </div>
+
+    <div class="gov-section">
+      <div class="gov-section-head">
+        <span class="panel-eyebrow">Review history</span>
+        <span class="count-chip" id="audit-count">0</span>
+      </div>
+      <p class="gov-caption">HITLReviewRecord entries for this session, newest first. Held in in-memory session state.</p>
+      <ol class="audit-list" id="audit-list"></ol>
+    </div>
+
+    <details class="notes-block">
+      <summary>Prototype / implementation notes</summary>
+      <ul>
+        <li>This is a prototype. Outputs are drafts for human review, not verified or certified content.</li>
+        <li>Without Bedrock configured, outputs come from the deterministic mock generators in <span class="mono">app/workflow.py</span>.</li>
+        <li>Review records and sessions are stored in memory and are lost when the server restarts. There is no database persistence.</li>
+        <li>Reviewer ID is a free-text field. There is no authentication or multi-user authorization.</li>
+        <li>The system never advances a step on its own. Each transition requires an explicit human decision.</li>
+        <li>The Faithfulness and Compliance Check is advisory. Its detection accuracy and the LLM evaluator's reliability have not been measured.</li>
+        <li>Pre-generation content validation gate (RAG pipeline): retrieved sources older than 1,825 days or below the minimum relevance threshold (0.10) are filtered out before reaching the LLM. This reduces, but does not eliminate, unsupported content.</li>
+      </ul>
+    </details>
+  </aside>
+</div>
+
+<div class="toast-container" id="toast-container" aria-live="polite"></div>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

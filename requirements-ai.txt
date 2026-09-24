@@ -1,0 +1,55 @@
+# HITL Document Pipeline — Full AI Stack Requirements
+# ===================================================
+# Install: pip install -r requirements-ai.txt
+#
+# Prerequisites (not pip-installable):
+#   - llama.cpp server binary: https://github.com/ggerganov/llama.cpp
+#   - AWS CLI + credentials for Bedrock access
+#   - PostgreSQL 14+ (for production session/audit storage)
+
+# --- Core web framework (same as base requirements.txt) ---
+fastapi==0.115.0
+uvicorn==0.30.6
+jinja2==3.1.4
+python-multipart==0.0.9
+pydantic==2.9.2
+
+# --- Settings management ---
+pydantic-settings==2.5.2
+
+# --- Amazon Bedrock / AWS ---
+boto3>=1.35.0
+botocore>=1.35.0
+
+# --- LiteLLM proxy (optional) ---
+litellm>=1.40.0
+
+# --- FAISS vector search ---
+faiss-cpu>=1.8.0          # CPU version; swap for faiss-gpu if GPU available
+
+# --- Numerical computing (required by FAISS + embeddings) ---
+numpy>=1.26.0
+
+# --- HTTP client for llama.cpp embedding server ---
+httpx>=0.27.0
+
+# --- PostgreSQL driver ---
+asyncpg>=0.29.0           # async driver for SQLAlchemy
+psycopg2-binary>=2.9.9    # sync driver / migration tools
+
+# --- Database ORM ---
+sqlalchemy>=2.0.0
+alembic>=1.13.0           # migrations
+
+# --- Document parsing (KB ingestion pipeline) ---
+pypdf>=4.0.0              # PDF text extraction
+python-docx>=1.1.0        # Word document extraction
+chardet>=5.2.0            # encoding detection
+
+# --- Logging / observability ---
+structlog>=24.0.0         # structured logging (JSON output for CloudWatch)
+
+# --- Testing ---
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
+httpx>=0.27.0             # for TestClient
