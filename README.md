@@ -99,14 +99,20 @@ A step stays locked until the previous step is approved. The AI never approves o
 
 ## Quick start
 
+The app runs locally on your own machine. There is no hosted demo, so clone the repo and start the server first. Python 3.12 or earlier is recommended; the pinned dependencies may not build on newer versions.
+
 ```bash
+git clone https://github.com/nhiverx/NALWORD.git
+cd NALWORD
 python -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 python run_demo.py
 ```
 
-Open [http://127.0.0.1:8000](http://127.0.0.1:8000), click **Load Sample Document**, then **Upload & Analyze Document** to walk through the pipeline.
+With the server running, open `http://127.0.0.1:8000` in your browser. This address points to your own computer, so it only works while `run_demo.py` is running locally.
+
+Click **Load sample document**, then **Create session and extract requirements**, and step through the workflow.
 
 ### Enabling the full AI stack
 
