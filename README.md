@@ -99,7 +99,7 @@ A step stays locked until the previous step is approved. The AI never approves o
 
 ## Quick start
 
-The app runs locally on your own machine. There is no hosted demo, so clone the repo and start the server first. Python 3.12 or earlier is recommended; the pinned dependencies may not build on newer versions.
+The app runs locally on your own machine. There is no hosted demo, so clone the repo and start the server first. Requires Python 3.10 or newer (tested on 3.14).
 
 ```bash
 git clone https://github.com/nhiverx/NALWORD.git
